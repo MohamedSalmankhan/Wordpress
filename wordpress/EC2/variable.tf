@@ -4,6 +4,7 @@ variable "instance_ami" {
 variable "key_name" {
 }
 variable "subnet_id" {
+  default = "subnet-48050911"
 }
 variable "sg_id" {
 }
