@@ -16,9 +16,9 @@ variable "username" {
 }
 variable "password" {
 }
-variable "db_subnet-1" {
-}
-variable "db_subnet-2" {
+variable "db_subnet" {
+  type = "list"
+  default = ["subnet-7822c80e","subnet-0cbc1c31"]
 }
 variable "db_sg" {
 }
