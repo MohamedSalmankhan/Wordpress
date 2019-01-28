@@ -25,6 +25,5 @@ module "RDS" {
   username = "${var.username}"
   password = "${var.password}"
   db_sg = "${var.db_sg}"
-  db_subnet-1 = "${var.db_subnet-1}"
-  db_subnet-2 = "${var.db_subnet-2}"
+  db_subnet = ["${var.db_subnet}"]
 }
