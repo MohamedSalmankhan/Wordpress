@@ -20,5 +20,5 @@ resource "aws_db_instance" "rds_wordpress" {
   }
 }
 resource "aws_db_subnet_group" "rds_subnet" {
-  subnet_ids = ["${var.db_subnet-1}","${var.db_subnet-2}"]
+  subnet_ids = ["${var.db_subnet}"]
 }
