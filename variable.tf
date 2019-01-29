@@ -7,7 +7,7 @@ variable "subnet_id" {
   default = "subnet-48050911"
 }
 variable "sg_id" {
-  default = ""
+  default = "sg-faac1c9c"
 }
 variable "db_name" {
 }
@@ -20,5 +20,5 @@ variable "db_subnet" {
   default = ["subnet-7822c80e","subnet-0cbc1c31"]
 }
 variable "db_sg" {
-  default = ""
+  default = "sg-08605275a29dab0fe"
 }
